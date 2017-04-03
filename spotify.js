@@ -20,7 +20,6 @@ const eitherToTask = e =>
 
 const parse = Either.try(JSON.parse)
 
-// Task Either Artist
 const findArtist = name =>
   getJSON(`https://api.spotify.com/v1/search?q=${name}&type=artist`)
   .map(result => result.artists.items)
