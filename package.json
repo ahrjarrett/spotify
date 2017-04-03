@@ -1,0 +1,26 @@
+{
+  "name": "spotify",
+  "version": "1.0.0",
+  "description": "Consumes the Spotify API and returns a list of related artists.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahrjarrett/spotify.git"
+  },
+  "keywords": [],
+  "author": "Andrew Jarrett <ahrjarrett@gmail.com> (https://github.com/ahrjarrett)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahrjarrett/spotify/issues"
+  },
+  "homepage": "https://github.com/ahrjarrett/spotify#readme",
+  "dependencies": {
+    "data.either": "1.5.0",
+    "data.task": "3.1.1",
+    "fantasy-identities": "0.0.1",
+    "request": "2.81.0"
+  }
+}
